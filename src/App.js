@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header';
 import Footer from './Footer';
 import Main from './Main';
+import data from"./data.json";
 
 function App() {
   return (
@@ -23,9 +24,10 @@ function App() {
         >
           Learn React
         </a>
-        <Main/>
-      </header>
+       </header> 
+      <Main/>
       <Footer></Footer>
+      <link rel="stylesheet" href="Main.css"></link>
     </div>
   );
 }
