@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Main from './Main';
 import data from"./data.json";
+import Logo from './Logo';
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <Header/>
       
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Welcome to 301!</p>
+        <Logo/>
+        
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -24,6 +25,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>GALLERY OF HORNS</p>
        </header> 
       <Main/>
       <Footer></Footer>
