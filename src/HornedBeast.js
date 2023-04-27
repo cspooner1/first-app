@@ -60,11 +60,6 @@ function HornedBeast(props) {
           </Modal>
         </Card.Body>
       </Card>
-      {/* <h2>{props.title}</h2>
-  <img alt={props.alt} src={props.imageUrl} title={props.title} style={{width:"400px", height:"400px" }} icon={BsFillHeartFill }></img>
-  <p>{props.description}</p> */}
-      {/* {clicks}  <button  onClick={onclick}
-        style={{ backgroundColor: clicks ? "purple" : "black" }}><BsFillHeartFill/></button> */}
     </div>
   )
 }
