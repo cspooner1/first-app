@@ -3,7 +3,7 @@ import './App.css';
 
 function Header() {
   return (
-            <h1>Code School</h1>
+            <h1>HORNTOPIA</h1>
 
   );
 }
